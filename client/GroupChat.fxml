@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="userImageView" fitHeight="63.0" fitWidth="100.0" layoutX="30.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="userNameLabel" layoutX="256.0" layoutY="33.0" text="Guest" textFill="#e60404">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="messageTextField" layoutX="16.0" layoutY="518.0" prefHeight="31.0" prefWidth="364.0" />
+      <ScrollPane fx:id="scrollPane" layoutX="16.0" layoutY="89.0" prefHeight="421.0" prefWidth="376.0">
+         <content>
+            <VBox fx:id="chatVBox" prefHeight="419.0" prefWidth="362.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

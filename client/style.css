@@ -1,0 +1,29 @@
+.button { 
+    -fx-background-color: #96793F; 
+    -fx-text-fill: white; 
+    -fx-border-color: #8A641B;
+    -fx-border-width: 2;
+}
+
+#AnchorPane{
+    -fx-background-color:  linear-gradient(white,#E8DD2B);
+}
+
+#chatVBox{
+    -fx-background-color:  #E7F7F7;     
+    -fx-border-color: #E5E9E0;
+    -fx-border-width: 2;
+}
+
+#senderBG{
+    -fx-background-color:  #ffffff;
+    -fx-background-radius: 10;
+    -fx-padding: 5;
+}
+
+
+#reciverBG{
+    -fx-background-color:  #ffcccc;
+    -fx-background-radius: 10;
+    -fx-padding: 5;
+}
